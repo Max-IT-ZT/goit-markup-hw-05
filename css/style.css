@@ -127,6 +127,7 @@ ol {
   display: flex;
   align-items: center;
   padding: 24px 0px;
+  transition: 250ms linear;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -141,6 +142,9 @@ ol {
   display: flex;
   margin-left: auto;
   gap: 40px;
+}
+.header-contact-link {
+  transition: 250ms linear;
 }
 
 .header-contact-link:hover,
@@ -190,6 +194,7 @@ ol {
   gap: 10px;
   margin-left: auto;
   margin-right: auto;
+  transition: 250ms linear;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -300,6 +305,7 @@ ol {
   border-radius: 50%;
   background-color: var(--logo-color-web);
   fill: #ffffff;
+  transition: 250ms linear;
 }
 .social-link:hover,
 .social-link:focus {
@@ -327,6 +333,7 @@ ol {
   width: 168px;
   height: 88px;
   color: var(--customers-link-color);
+  transition: 250ms linear;
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -395,6 +402,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 250ms linear;
 }
 .bc-link:hover,
 .bc-link:focus {
@@ -425,6 +433,7 @@ ol {
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
+  transition: 250ms linear;
 }
 .menu-btn:hover,
 .menu-btn:focus {
